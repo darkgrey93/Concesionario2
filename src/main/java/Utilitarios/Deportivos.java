@@ -21,7 +21,7 @@ public class Deportivos extends Vehiculo {
     
     @Override
     public void verDetalle() {
-        
+        System.out.println("llantas de lujo?"+llantas+"\nconvertible? " +convertible+"\n"+getColor()+"\n"+getMarca()+"\n"+getModelo()+"\n"+getCantidad());
     }
 
     /**

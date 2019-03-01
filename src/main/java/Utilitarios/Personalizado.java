@@ -24,7 +24,7 @@ public class Personalizado extends Vehiculo{
     
     @Override
     public void verDetalle() {
-        
+        System.out.println("tiene aleron?"+aleron+"\ntiene nitro? " +nitro+"\n"+getColor()+"\n"+getMarca()+"\n"+getModelo()+"\n"+getCantidad());
     }
 
     public boolean isAleron() {

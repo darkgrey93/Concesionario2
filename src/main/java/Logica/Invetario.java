@@ -5,19 +5,14 @@
  */
 package Logica;
 
-import Utilitarios.Comprador;
-import Utilitarios.Estandar;
-import Utilitarios.*;
+import Utilitarios.Persona;
 import java.util.ArrayList;
+import Utilitarios.Vehiculo;
 
 /**
  *
  * @author Darkgrey93
  */
-public class Listas {
-    
-    ArrayList<Persona> listaclientes = new ArrayList<Persona>();
-    ArrayList<Estandar> listaEstandar = new ArrayList<Estandar>();
-    
-    
+public class Invetario {
+    ArrayList<Vehiculo> inventario = new ArrayList<Vehiculo>();
 }

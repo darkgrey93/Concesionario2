@@ -4,9 +4,6 @@
  * and open the template in the editor.
  */
 package Utilitarios;
-
-import com.mycompany.concesionario.Persona;
-
 /**
  * Clase con los parametros especificos del comprador
  * @author fetec

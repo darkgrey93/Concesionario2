@@ -21,7 +21,7 @@ public class Maquinaria extends Vehiculo{
     
     @Override
     public void verDetalle() {
-        
+        System.out.println("tiene bodega?"+bodega+"\ntiene gancho?" +gancho+"\n"+getColor()+"\n"+getMarca()+"\n"+getModelo()+"\n"+getCantidad());
     }
 
     /**
