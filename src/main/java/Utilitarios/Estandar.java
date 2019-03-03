@@ -12,7 +12,7 @@ package Utilitarios;
 public class Estandar extends Vehiculo {
     
 
-    public Estandar(StringBuffer marca, StringBuffer modelo, StringBuffer color, int cantidad) {
+    public Estandar(String marca, String modelo, String color, int cantidad) {
         super(marca, modelo, color, cantidad);
     }
     @Override

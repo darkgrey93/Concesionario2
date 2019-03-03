@@ -8,11 +8,12 @@ package Logica;
 import Utilitarios.Persona;
 import java.util.ArrayList;
 import Utilitarios.Vehiculo;
+import java.util.List;
 
 /**
  *
  * @author Darkgrey93
  */
-public class Invetario {
-    ArrayList<Vehiculo> inventario = new ArrayList<Vehiculo>();
+public class Inventario {
+    List<Vehiculo> inventario = new ArrayList<>();
 }

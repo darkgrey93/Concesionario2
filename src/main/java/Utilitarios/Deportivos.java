@@ -13,7 +13,7 @@ public class Deportivos extends Vehiculo {
     private boolean llantas;
     private boolean convertible;
     
-    public Deportivos(boolean llantas, boolean convertible, StringBuffer marca, StringBuffer modelo, StringBuffer color, int cantidad) {
+    public Deportivos(boolean llantas, boolean convertible, String marca, String modelo, String color, int cantidad) {
         super(marca, modelo, color, cantidad);
         this.llantas = llantas;
         this.convertible = convertible;

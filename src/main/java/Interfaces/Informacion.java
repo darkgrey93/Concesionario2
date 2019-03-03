@@ -6,7 +6,7 @@
 package Interfaces;
 
 /**
- *
+ * Interfas con el metodo de ver detalles de los diferentess vehiculos
  * @author fetec
  */
 public interface Informacion {

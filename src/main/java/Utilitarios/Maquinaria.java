@@ -13,7 +13,7 @@ public class Maquinaria extends Vehiculo{
     private boolean bodega;
     private boolean gancho;
     
-    public Maquinaria (boolean bodega, boolean gancho, StringBuffer marca, StringBuffer modelo, StringBuffer color, int cantidad) {
+    public Maquinaria (boolean bodega, boolean gancho, String marca, String modelo, String color, int cantidad) {
         super(marca, modelo, color, cantidad);
         this.bodega = bodega;
         this.gancho = gancho;

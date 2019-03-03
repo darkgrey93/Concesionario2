@@ -10,23 +10,23 @@ package Utilitarios;
  */
 public class Comprador extends Persona{
     
-    private StringBuffer correo;
+    private String correo;
     
     /**
      * Constructor que recibe los parametros especificos del comprador como correo.
      * 
      * @param correo  
      */
-    public Comprador(StringBuffer nombre, int id, StringBuffer correo) {
+    public Comprador(String nombre, int id, String correo) {
         super(nombre, id);
         this.correo=correo;
     }
 
-    public StringBuffer getCorreo() {
+    public String getCorreo() {
         return correo;
     }
 
-    public void setCorreo(StringBuffer correo) {
+    public void setCorreo(String correo) {
         this.correo = correo;
     }
 }

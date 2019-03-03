@@ -10,7 +10,7 @@ package Utilitarios;
  * @author fetec
  */
 public abstract class Persona {
-    private StringBuffer nombre;
+    private String nombre;
     private int id;
     
     /**
@@ -18,16 +18,16 @@ public abstract class Persona {
      * @param nombre
      * @param id 
      */
-    public Persona(StringBuffer nombre, int id) {
+    public Persona(String nombre, int id) {
         this.nombre = nombre;
         this.id = id;
     }
 
-    public StringBuffer getNombre() {
+    public String getNombre() {
         return nombre;
     }
 
-    public void setNombre(StringBuffer nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 

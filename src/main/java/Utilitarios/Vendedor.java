@@ -18,7 +18,7 @@ public class Vendedor extends Persona{
      * 
      * @param vehiculosVendidos   
      */
-    public Vendedor(StringBuffer nombre, int id, int vehiculosVendidos) {
+    public Vendedor(String nombre, int id, int vehiculosVendidos) {
         super(nombre, id);
         this.vehiculosVendidos=vehiculosVendidos;
     }

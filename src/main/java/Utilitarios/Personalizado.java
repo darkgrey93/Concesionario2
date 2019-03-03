@@ -8,7 +8,7 @@ package Utilitarios;
 
 
 /**
- *
+ * Clase que contiene los parametros especificos de los vehiculos personalizados
  * @author fetec
  */
 public class Personalizado extends Vehiculo{
@@ -16,7 +16,7 @@ public class Personalizado extends Vehiculo{
     private boolean aleron;
     private boolean nitro;
 
-    public Personalizado(boolean aleron, boolean nitro, StringBuffer marca, StringBuffer modelo, StringBuffer color, int cantidad) {
+    public Personalizado(boolean aleron, boolean nitro, String marca, String modelo, String color, int cantidad) {
         super(marca, modelo, color, cantidad);
         this.aleron = aleron;
         this.nitro = nitro;

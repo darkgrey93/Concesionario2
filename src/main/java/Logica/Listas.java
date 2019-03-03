@@ -9,6 +9,7 @@ import Utilitarios.Comprador;
 import Utilitarios.Estandar;
 import Utilitarios.*;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -16,8 +17,8 @@ import java.util.ArrayList;
  */
 public class Listas {
     
-    ArrayList<Persona> listaclientes = new ArrayList<Persona>();
-    ArrayList<Estandar> listaEstandar = new ArrayList<Estandar>();
+    List<Persona> listaclientes = new ArrayList<Persona>();
+    List<Factura> listaEstandar = new ArrayList<Factura>();
     
     
 }
